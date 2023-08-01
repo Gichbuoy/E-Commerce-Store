@@ -119,7 +119,7 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `name`, `lname`, `company_name`, `address`, `city`, `country`, `zip_code`, `email`, `phone_number`, `order_notes`, `status`, `price`, `user_id`, `created_at`) VALUES
-(5, 'Mohamed', 'Hassan', 'web coding', 'Appropriately recaptiualize professional metrics vis-a-vis reliable core competencies. Monotonectally initiate performance based models after real-time', 'Cairo', 'Egypt', 3232332, 'user1@user.com', 223321323, 'Appropriately recaptiualize professional metrics vis-a-vis reliable core competencies. Monotonectally initiate performance based models after real-time', 'sent to admins', 110, 1, '2022-12-14 12:47:47');
+(5, 'Alex', 'Maina', 'Afree Tec', '254-Underground', 'Gotham', 'DC', 3232332, 'user1@user.com', +25498765678', 'good quality products', sent to admins', 110, 1, '2022-12-14 12:47:47');
 
 -- --------------------------------------------------------
 
