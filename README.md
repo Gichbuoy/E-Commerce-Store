@@ -17,11 +17,12 @@ This **E-Commerce Store** is a dynamic web application.
 
 
 ## Requirements
-PHP 7 or higher
-MySQL database
-Web server (e.g., Apache, Nginx)
-PayPal Developer Account for Sandbox/Production API credentials
-Composer (to install dependencies)
+* PHP 7 or higher
+* MySQL database
+* Web server (e.g., Apache, Nginx)
+* Xampp
+*PayPal Developer Account for Sandbox/Production API credentials
+
 
 ## Ideas and Suggestions
 Please kindly mail me at [lexizgichbuoy@gmail.com](mailto:lexizgichbuoy@gmail.com])
@@ -35,15 +36,14 @@ git clone https://github.com/Gichbuoy/E-commerce-Store.git
 
 1. Create a new MySQL database for the application and import the database.sql file to set up the required tables.
 
-2. Update the database credentials in config.php:
+2. Update the script credentials with your own sandbox Business account app client ID in [charge.php](https://github.com/Gichbuoy/E-Commerce-Store/products/charge.php)
 ```
-<?php
-define('DB_HOST', 'your-database-host');
-define('DB_NAME', 'your-database-name');
-define('DB_USER', 'your-database-username');
-define('DB_PASSWORD', 'your-database-password');
-?>
+<div class="container">
+                <script>Paypal API credentials</script>
+            </div>
+
 ```
+
 
 Set up your PayPal API credentials in paypal_config.php:
 ```
