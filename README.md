@@ -36,7 +36,8 @@ git clone https://github.com/Gichbuoy/E-commerce-Store.git
 
 1. Create a new MySQL database for the application and import the database.sql file to set up the required tables.
 
-2. Update the database credentials in [config.php](https://github.com/Gichbuoy/E-Commerce-Store/config/config.php)
+2. Update the database credentials in [config.php](https://github.com/Gichbuoy/E-Commerce-Store/blob/main/config/config.php)
+
 ```
 <?php
 define('DB_HOST', 'your-database-host');
@@ -46,7 +47,7 @@ define('DB_PASSWORD', 'your-database-password');
 ?>
 ```
 
-Set up your PayPal API credentials with your own sandbox Business account app client ID in [charge.php](https://github.com/Gichbuoy/E-Commerce-Store/products/charge.php)
+Set up your PayPal API credentials with your own sandbox Business account app client ID in [charge.php](https://github.com/Gichbuoy/E-Commerce-Store/blob/main/products/charge.php)
 ```
 <div class="container">
                 <script src="Your paypal API credentials "</script>
