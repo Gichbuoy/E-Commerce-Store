@@ -36,27 +36,27 @@ git clone https://github.com/Gichbuoy/E-commerce-Store.git
 
 1. Create a new MySQL database for the application and import the database.sql file to set up the required tables.
 
-2. Update the script credentials with your own sandbox Business account app client ID in [charge.php](https://github.com/Gichbuoy/E-Commerce-Store/products/charge.php)
-```
-<div class="container">
-                <script>Paypal API credentials</script>
-            </div>
-
-```
-
-
-Set up your PayPal API credentials in paypal_config.php:
+2. Update the database credentials in [config.php](https://github.com/Gichbuoy/E-Commerce-Store/config/config.php)
 ```
 <?php
-define('PAYPAL_CLIENT_ID', 'your-paypal-client-id');
-define('PAYPAL_SECRET', 'your-paypal-secret');
-define('PAYPAL_MODE', 'sandbox'); // 'sandbox' for testing, 'live' for production
+define('DB_HOST', 'your-database-host');
+define('DB_NAME', 'your-database-name');
+define('DB_USER', 'your-database-username');
+define('DB_PASSWORD', 'your-database-password');
 ?>
+```
+
+Set up your PayPal API credentials with your own sandbox Business account app client ID in [charge.php](https://github.com/Gichbuoy/E-Commerce-Store/products/charge.php)
+```
+<div class="container">
+                <script src="Your paypal API credentials "</script>
+            </div>
 ```
 
 Start your web server and access the application in your web browser.
 
 ## Directory Structure
+```
 food-ordering-ecommerce/
 │   index.php
 │   config.php
@@ -81,6 +81,7 @@ food-ordering-ecommerce/
 │       db_connect.php
 │
 └───vendor
+```
 
 ## Contributing
 Pull requests are welcome. For major changes or feature requests, please open an issue first to discuss what you would like to change.
@@ -89,6 +90,6 @@ Pull requests are welcome. For major changes or feature requests, please open an
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
-This project is inspired by various online food ordering systems and ecommerce platforms.
+
 Thanks to the PHP, MySQL, Bootstrap, and PDO communities for their excellent tools and libraries.
 
