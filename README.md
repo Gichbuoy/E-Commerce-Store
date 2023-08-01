@@ -21,7 +21,7 @@ This **E-Commerce Store** is a dynamic web application.
 * MySQL database
 * Web server (e.g., Apache, Nginx)
 * Xampp
-*PayPal Developer Account for Sandbox/Production API credentials
+* PayPal Developer Account for Sandbox/Production API credentials
 
 
 ## Ideas and Suggestions
@@ -57,30 +57,48 @@ Start your web server and access the application in your web browser.
 
 ## Directory Structure
 ```
-food-ordering-ecommerce/
+E-Commerce-Store/
+|   404.php
+|   about.php
+|   contact.php
+|   faq.php
 │   index.php
-│   config.php
-│   paypal_config.php
-│   database.sql
+|   LICENSE
+|   shop.php
 │
-├───admin
-│       index.php
-│       add_food.php
-│       edit_food.php
-│       manage_orders.php
-│       manage_users.php
-│       config.php
+├───admin-panel
+│       admins
+│       category-admins
+│       layouts
+│       orders-admins
+│       product-admins
+|       styles
+|       index.php
 │
-├───assets
-│   ├───css
-│   ├───js
-│   └───images
+├───auth
+|       login.php
+|       logout.php
+|       register.php
 │
+|───config
+|       config,php
+|
 ├───includes
-│       functions.php
-│       db_connect.php
+│       footerr.php
+│       header.php
 │
-└───vendor
+|───products
+|       cart.php
+|       charge.php
+|       checkout.php
+|       delete-product.php
+|       detail-product.php
+|       success.php
+|       update-product.php
+|
+|───users
+|       setting.php
+|       transaction.php
 ```
 
 ## Contributing
