@@ -84,7 +84,7 @@ E-Commerce-Store/
 |       config,php
 |
 ├───includes
-│       footerr.php
+│       footer.php
 │       header.php
 │
 |───products
@@ -110,4 +110,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 Thanks to the PHP, MySQL, Bootstrap, and PDO communities for their excellent tools and libraries.
+I would also like to thank my instructor Mohamed Hassan for the help and guide in building this project
 
