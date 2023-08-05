@@ -48,7 +48,7 @@ INSERT INTO `admins` (`id`, `adminname`, `email`, `mypassword`, `created_at`) VA
 
 
 --
--- Table structure for table `cart`
+-- Table structure for the table `cart`
 --
 
 CREATE TABLE `cart` (
