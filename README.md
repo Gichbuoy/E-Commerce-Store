@@ -8,7 +8,7 @@ This **E-Commerce Store** is a dynamic web application.
 [See DEMO](https://groceries.teguhrianto.my.id)
 
 ## Features
-* User Registration and Authentication
+* User Registration and Authentication.
 * Browse and Search Food Items
 * Add Food Items to Cart
 * View Cart and Proceed to Checkout
