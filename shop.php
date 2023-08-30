@@ -2,7 +2,7 @@
 <?php require "config/config.php"; ?>
 <?php
 
-    //categories
+    // categories
     $categories = $conn->query("SELECT * FROM categories");
     $categories->execute();
 
