@@ -39,7 +39,7 @@
                                         Buy
                                     </h4>
                                     <p class="card-text">
-                                        Simply click-to-buy on the product you want and submit your order when you're done.
+                                        Simply click-to-buy on the product you want, and submit your order when you're done.
                                     </p>
 
                                 </div>
